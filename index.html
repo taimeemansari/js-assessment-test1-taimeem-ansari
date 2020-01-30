@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>
+      Es6 Assignment
+    </title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  </head>
+<div id="app"></div>
+<!--Problem 6-->
+<div>
+<div>Problem 6</div><br/>
+<label>Enter a Number:</label>
+<input type="text" name="number" id="textVal"/><br/>
+<p id="error"></p>
+<input type="submit" id="submitBtn"><br/><br/>
+</div>
+<hr/>
+<!-- Problem 7 -->
+<div>
+  <div>Problem 7</div><br/>
+<label> 
+  Search the site:</label>
+<input type="search" id="site-search" name="7"><br/><br/>
+<button id="search">Search</button>
+<button id="clearSearch">Clear</button>
+<div id="search-results"></div>
+<br/><br/>
+</div>
+<!--Problem 8-->
+<div>
+<div>Problem 8 :print message</div><br/>
+<label>output in console</label>
+<div id="pContent"></div>
+</div>
+<hr/>
+<!-- Problem 9 -->
+<p> Problem 9: Coundown timer</p>
+<div id="countdown"></div>
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+<button id="clear">Clear</button>
+<!--  your code below -->
+
+<!-- Problem 10 -->
+<p> Problem 10: Modal</p>
+<!--  your code below -->
+<button id="modalBtn">modal</button>
+
+<!-- Problem 12 -->
+<p> Problem 12: Password validation</p>
+<!--  your code below -->
+<div class="form-group">
+  <label>Password:</label>
+  <input type="password" id="password">
+</div>
+<p id="error2" class="error"></p><br/>
+<div class="form-group">
+  <label>Confirm Password:</label>
+  <input type="password" id="cpassword">
+</div>
+<p id="error3" class="error"></p>
+<!-- Problem 15 -->
+<p> Problem 15: Pagination</p>
+<div>
+    <table id="request-table">
+   </table>
+</div>
+<div class="clearfix">
+	<div class="box options">
+		<label>Requests Per Page: </label>
+      <select id="req_per_page" onchange="filter_requests()">
+			<option>5</option>
+			<option>10</option>
+			<option>ALL</option>
+		</select>
+	</div>
+	<div class="box pagination">
+	</div>
+</div>
+<!-- custom modal ui -->
+<div id="modal-dailog" class="modal">
+  <div id="modal-close">
+    <a href="javscript:void(0)">
+      &#x2716
+    </a>
+  </div>
+    <div class="modal-title">
+      vote counter
+    </div>
+    <div class="modal-body">
+      <div class="voting-section">
+         <div class="up-vote-section">
+            Up votes
+         <div id="up-count">
+           0
+         </div>
+         <button id="upVote">Up vote</button>
+         </div>
+        <div class="down-vote-section">
+            Down votes
+         <div id="down-count">
+           0
+         </div>
+         <button id="downVote">Down vote</button>
+         </div>
+      </div>
+    </div>
+</div>
+</html>
