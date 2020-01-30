@@ -143,8 +143,8 @@ textInp.addEventListener('keyup', function() {
 // Problem 7
 // Integrate google API and console the results for the given search box when clicked on search button.
 
-let apikey = ""; // API KEY
-let cx = ""; // CSE ID                        
+let apikey = "AIzaSyCyoDwY1ibbFVZJWh0Krn5VPj7V0i8VdEc"; // API KEY
+let cx = "004351855598862006687:fffcrxua94v"; // CSE ID 
 let searchBtn = document.getElementById('search');
   let input=document.getElementById("site-search");
 let searchResults = document.getElementById('search-results');
